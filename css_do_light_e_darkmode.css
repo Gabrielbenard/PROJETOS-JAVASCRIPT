@@ -1,0 +1,55 @@
+body {
+	background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+/* o .darkmode acionará o com body que tem a classe darkmode  */
+
+body.darkmode {
+	background-color: #000401;
+	color: #e5e8e8;}
+
+
+div{
+    height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+}
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+/* :hover é em relação quando o passamos o mouse em cima do botão */
+button:hover {
+	background-color: #000401;
+}
+
+button.darkmode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.darkmode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
+
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background: darkturquoise;
+    color: white;
+}
+

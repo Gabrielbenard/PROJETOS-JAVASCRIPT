@@ -1,0 +1,15 @@
+//usamos o metodo map para criar um novo array 
+
+function mapsemthis(arr) {
+    return arr.map(function (item) {
+        return item * 2;
+        
+    })
+    
+    
+};
+
+const nums =[ 2,4,6,8,10];
+console.log(mapsemthis(nums));
+
+console.log(nums);
